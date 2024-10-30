@@ -1,0 +1,10 @@
+example endpoint
+---
+parameters:
+    - name: yourname
+      in: path
+      type: string
+      required: true
+responses:
+    200:
+        description: ok

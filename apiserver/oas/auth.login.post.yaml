@@ -1,0 +1,10 @@
+Login POST
+---
+parameters:
+    - name: username
+      in: query
+      type: string
+      required: true
+responses:
+    200:
+           description: ok

@@ -1,0 +1,25 @@
+Login GET
+---
+parameters:
+  - name: username
+    in: query
+    type: string
+    required: true
+  - name: password
+    in: query
+    type: string
+    required: true
+definitions:
+  Token:
+    type: object
+    properties:
+      token:
+        description: JWT
+        type: string
+responses:
+  200:
+    description: return JWT authorization key
+    schema:
+      $ref: '#/definitions/Token'
+  400:
+    description: unauthorized
