@@ -1,2 +1,2 @@
-CTF Setup Documentation
-=======================
+API Server for CTF
+==================
